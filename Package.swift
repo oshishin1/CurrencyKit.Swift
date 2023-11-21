@@ -13,7 +13,7 @@ let package = Package(
                     targets: ["CurrencyKit"]),
         ],
         dependencies: [
-            .package(url: "https://github.com/horizontalsystems/StorageKit.Swift.git", .upToNextMajor(from: "2.0.0")),
+            .package(url: "https://github.com/oshishin1/StorageKit.Swift.git", .upToNextMajor(from: "2.0.0")),
         ],
         targets: [
             .target(
